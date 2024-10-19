@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px 20px;
+    color: white;
+}
+.menu button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.menu button.active {
+    background-color: green;
+    color: white;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.user-menu {
+    display: inline-block;
+}
+
+.user-menu ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.user-menu ul li {
+    margin-left: 20px; /* Espaciado entre los elementos del menú */
+}
+
+.user-menu ul li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    padding: 10px 15px; /* Espaciado interno del enlace */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+.user-menu ul li a:hover {
+    background-color: #495057; /* Cambia el color de fondo al pasar el ratón */
+    border-radius: 5px; /* Bordes redondeados en el hover */
+}
+
+.user-menu ul li a:active {
+    background-color: #212529; /* Cambia el color cuando se hace clic */
+}
+
+h1 {
+    margin: 0;
+}
+.container {
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.menu button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.menu button:hover {
+    background-color: #0056b3;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #007bff;
+    color: white;
+}
+.actions button {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 2px;
+    transition: background-color 0.3s;
+}
+.actions button:hover {
+    background-color: #218838;
+}
+.reject-btn {
+    background-color: #dc3545;
+}
+.reject-btn:hover {
+    background-color: #c82333;
+}

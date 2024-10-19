@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Login Administrador - Universidad</title>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Acceso Administrador</h2>
+        <p>Ingresa tus credenciales para acceder al panel de administración</p>
+        <form action="../php/login.php" method="POST">
+            <label for="username">Usuario</label>
+            <input type="text" id="username" name="username" placeholder="Usuario" required>
+            
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" placeholder="Contraseña" required>
+            
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+        <a href="#">¿Olvidaste tu contraseña?</a>
+    </div>
+
+    
+</body>
+</html>
